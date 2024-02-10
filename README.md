@@ -1,9 +1,12 @@
 # Reddit-clone-k8s-deploy
 
-Reddit Clone App on Kubernetes with Ingress
+# Reddit Clone App on Kubernetes with Ingress
+
 This project demonstrates how to deploy a Reddit clone app on Kubernetes with Ingress and expose it to the world using Minikube as the cluster.
 
 # Prerequisites
+
+---
 
 Before you begin, you should have the following tools installed on your local machine:
 
@@ -11,11 +14,12 @@ Docker
 Kubeatm master and worker node
 kubectl
 Git
+
 You can install Prerequisites by doing this steps. click here & complete all steps one by one.
 
----
-
 # Installation
+
+---
 
 Follow these steps to install and run the Reddit clone app on your local machine:
 
@@ -32,5 +36,8 @@ Create an Ingress resource: kubectl apply -f ingress.yaml
 
 # Test Ingress DNS for the app:
 
-Contributing
+---
+
+# Contributing
+
 If you'd like to contribute to this project, please open an issue or submit a pull request.
